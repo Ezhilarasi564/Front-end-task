@@ -1,0 +1,48 @@
+<!DOCTYPE html
+<html>
+<head><title>Studebnt Registration</title>
+<style>
+input { 
+width: 30%;
+ }
+</style>
+</head>
+<body style="background-color: powderblue;">
+<h1 style="text-align: center">Student Registeration Form</h1>
+<hr>
+<form >
+<label for="fname">First Name:</label>
+<br>
+<input type="text" id="fname" name="firstname" placeholder="First Name">
+<pre>
+<label for="mname">Middle Name:</label>
+<input type="text" id="mname" name="middlename" placeholder="Middle Name">
+<pre>
+<label for="lname">Last Name:</label>
+<input type="text" id="lname" name="lastname" placeholder="Last Name">
+<pre>
+<label for="course">Course:</label><select id="course">
+    <option placeholder="course">Course</option>
+     <option value="B.Sc">B.Sc</option>
+     <option value="M.Sc">M.Sc</option>
+     <option value="M.com">M.com</option>
+</select>
+<pre>
+<label for="Gender">Gender:</label><input  style="width:30px" type="radio" id="male" name="gender" value="Male"><label for="Gender">Male</label><input style="width:30px" type="radio" id="female" name="gender" value="Female"><label for="Gender">Female</label><input  style="width:30px" type="radio" id="other" name="gender" value="Other"><label for="Gender">Other</label><br>
+<label for="Phone">Phone:</label>
+<input type="text" id="phone" name="phone" placeholder="Phone no."><br>
+
+<!-- Textarea start -->
+<label for="Current Address">Current Address:</label>
+<textarea name="Current Address" id="caddress" rows="5" cols="40"></textarea><br>
+<!-- End  -->
+<label for="Email">Email:</label>
+<input type="text" id="Email" name="Email" placeholder="Enter Email"><br>
+<label for="Password">Password:</label>
+<input type="text" id="pass" name="password" placeholder="Password"><br>
+<label for="Password">Re-type Password:</label>
+<input type="text" id="pass" name="password" placeholder="Re-type Password"><br>
+<input style="background-color: yellowgreen; width:30%"  type="submit" id="sub" name="submit" value="Register">
+</form>
+</body>
+</html>
